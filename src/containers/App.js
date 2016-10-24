@@ -2,14 +2,14 @@ import React from 'react';
 import { Provider } from 'react-redux';
 import { BrowserRouter, Match, Miss } from 'react-router';
 
-import Main from './../components/Main';
 import NoMatch from './../components/NoMatch';
+import Counter from './../containers/Counter';
 
 const App = ({ store }) => (
     <Provider store={store}>
         <BrowserRouter>
             <div>
-                <Match pattern="/" component={Main} />
+                <Match exactly pattern="/" component={Counter} />
                 <Miss component={NoMatch} />
             </div>
         </BrowserRouter>
