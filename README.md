@@ -5,4 +5,4 @@ A minimal starter toolkit for projects based on React and Redux (and optional de
 Based on [`create-react-app`](https://github.com/facebookincubator/create-react-app).
 
 - Basic Redux boilerplate and structure.
-- Includes Ramda for utils.
+- Includes [Ramda](http://ramdajs.com/) for utils.
